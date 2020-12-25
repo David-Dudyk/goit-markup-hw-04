@@ -24,6 +24,8 @@
 
 body {
   font-family: var(--primary-font-family);
+
+
 }
 
 .container {
@@ -210,26 +212,27 @@ nav a.active,
 /* hero styles */
 
 .hero {
+
+  background-image: url("../images/icons/hero.jpg");
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+ 
+  
+
   background-color: var(--accent-background);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
-  background-image: url("../images/icons/hero.jpg");
-  background-size: auto cover;
-  background-repeat: no-repeat;
  
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
-
-  /*  Закомментируйте эту строку  */
-  background-attachment: fixed;
 }
+
+
+
 .hero .container {
-  flex-direction: column;
+  flex-direction: column;  
 }
 
 /* quality */
@@ -394,8 +397,8 @@ footer address {
 }
 footer .container-link li {
 
-  margin: 0px 139px 0px 139px; 
-  padding: 9px 15px 0px 15px;
+  margin-top: 9px; 
+ 
   
 }
 
