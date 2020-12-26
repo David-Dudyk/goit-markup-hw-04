@@ -61,7 +61,7 @@ h2 {
 }
 
 h3 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -395,11 +395,9 @@ footer address {
   flex-direction: column;
   align-items: flex-start;
 }
-footer .container-link li {
 
-  margin-top: 9px; 
- 
-  
+footer .container li {
+  margin-top: 9px;
 }
 
 footer .logo {
