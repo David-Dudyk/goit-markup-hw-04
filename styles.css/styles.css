@@ -6,8 +6,8 @@
 :root {
   --accent-background: #2f303a;
   --secondary-background: #f5f4fa;
-
-  --primary-font-family: 'Roboto', sans-serif;
+  --background-main: #e5e5e5;
+  --primary-font-family: "Roboto", sans-serif;
 
   --accent-color: #2196f3;
   --text-color: #757575;
@@ -24,8 +24,6 @@
 
 body {
   font-family: var(--primary-font-family);
-
-
 }
 
 .container {
@@ -74,7 +72,6 @@ h4 {
   letter-spacing: 0.03em;
 }
 
-
 p {
   color: var(--text-color);
   font-weight: 400;
@@ -92,6 +89,13 @@ ul {
 img {
   display: block;
 }
+
+/* main */
+
+.color {
+  background-color: var(--background-main);
+}
+
 /* button */
 
 button {
@@ -154,7 +158,7 @@ header a {
 .logo {
   color: #212121;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -166,9 +170,9 @@ header .logo {
   color: var(--accent-color);
   font-weight: 700;
 }
-.list{
-   display: flex;
- }
+.list {
+  display: flex;
+}
 nav a {
   color: #212121;
   font-weight: 500;
@@ -180,6 +184,13 @@ nav a {
 .header-nav {
   display: flex;
   margin-left: 93px;
+}
+
+.contact-links {
+  display: flex;
+}
+.contact-links li {
+  display: flex;
 }
 
 .header-nav li:not(:last-child) {
@@ -196,6 +207,7 @@ nav a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  margin-left: 10px;
 }
 nav a:hover,
 nav a:focus,
@@ -205,34 +217,36 @@ nav a.active,
   color: var(--accent-color);
 }
 
-.contact-links {
-  display: flex;
-}
-
 /* hero styles */
 
 .hero {
-
   background-image: url("../images/icons/hero.jpg");
-  background-size: contain;
-
+  display: flex;
+  justify-content: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-
- 
-  
-
-  background-color: var(--accent-background);
-  text-align: center;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
- 
+  text-align: center;
 }
 
-
-
 .hero .container {
-  flex-direction: column;  
+  flex-direction: column;
+}
+
+.after-hero {
+  margin-left: 215px;
+}
+
+.icons {
+  background-color: var(--secondary-background);
+  display: flex;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  left: 215px;
+  top: 774px;
+  border-radius: 4px;
 }
 
 /* quality */
@@ -277,6 +291,8 @@ nav a.active,
 
   padding-top: 94px;
   padding-bottom: 94px;
+
+
 }
 .team h2 {
   margin-bottom: 50px;
@@ -297,8 +313,12 @@ nav a.active,
 
 .team .container {
   flex-direction: column;
+  
 }
 .team li {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
   background-color: var(--secondary-title-color);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
