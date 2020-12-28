@@ -108,6 +108,8 @@ button {
   line-height: 1.6;
   letter-spacing: 0.03em;
 
+  cursor: pointer;
+
   border-radius: 4px 4px 4px 4px;
   border: 0px;
   padding: 6px 22px 6px 22px;
@@ -314,6 +316,8 @@ nav a.active,
 }
 
 /* what-we-do */
+
+
 .what-we-do {
   padding-bottom: 94px;
   padding-top: 47px;
@@ -333,6 +337,8 @@ nav a.active,
 }
 
 /* team */
+
+
 .team {
   text-align: center;
   background-color: var(--secondary-background);
@@ -406,6 +412,7 @@ nav a.active,
 .works {
   padding-top: 94px;
   padding-bottom: 94px;
+
 }
 
 .works .container {
@@ -416,6 +423,7 @@ nav a.active,
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+ 
 }
 
 .tab-buttons li:not(:last-child) {
@@ -431,16 +439,22 @@ nav a.active,
   color: var(--title-color);
 }
 
+
+
 /* our-directions */
 
 .our-directions {
   display: flex;
   flex-wrap: wrap;
+  
 }
+
+
 .project-wrapper {
   padding: 20px;
   background: #ffffff;
   border: 1px solid #eeeeee;
+  
 }
 
 .our-directions li {
@@ -448,6 +462,13 @@ nav a.active,
   margin-bottom: 30px;
   width: 370px;
 }
+
+.direction-container:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+   0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px
+   rgba(0, 0, 0, 0.16);
+}
+
 
 .name-wrapper {
   padding: 30px;
@@ -598,6 +619,8 @@ footer a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
+
 
 .footer-link {
   width: 44px;
