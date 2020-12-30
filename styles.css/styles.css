@@ -195,6 +195,12 @@ nav a {
   display: flex;
 }
 
+.contact-links a {
+  display: flex;
+}
+
+
+
 .email {
   width: 16px;
   height: 12px;
@@ -208,6 +214,11 @@ nav a {
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.icon-email:hover,
+.icon-smarphone:hover {
+  fiil: var(--accent-color);
 }
 
 .header-nav li:not(:last-child) {
