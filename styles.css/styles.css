@@ -628,7 +628,6 @@ footer a {
 
 .footer-networks {
   width: 206px;
-  margin: 16px 0px 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; 
@@ -643,6 +642,7 @@ footer a {
   color: var(--secondary-title-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 
@@ -653,7 +653,7 @@ footer a {
 .footer-social-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin: 0px;
 }
 
 .footer-social-links a {
