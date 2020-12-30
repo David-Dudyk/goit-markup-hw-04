@@ -529,6 +529,8 @@ nav a.active,
   display: flex;
 }
 
+
+
 .partners-links li:not(:last-child) {
   margin-right: 30px;
 }
@@ -645,14 +647,40 @@ footer a {
 
 
 
-.footer-link {
+/* footer-social */
+
+
+.footer-social-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.footer-social-links li {
+  margin: 0;
+  padding: 0px;
+  border: 0px;
+}
+.footer-social-links li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-social-button {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  border: 2px solid tomato;
-  cursor: pointer;
+  background-color: #ffffff;
+  fill: #afb1b8;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  
+  justify-content: center;
+  align-items: center;
 }
+
+.footer-social-button:hover,
+.footer-social-button:focus {
+  background-color: var(--accent-color);
+  fill: #ffffff;
+}
+
+
+
