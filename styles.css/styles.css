@@ -653,7 +653,12 @@ footer a {
 .footer-social-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 16px;
+  margin-top: 10px;
+}
+
+.footer-social-links a {
+  margin: 0px;
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .footer-social-links li {
@@ -681,6 +686,3 @@ footer a {
   background-color: var(--accent-color);
   fill: #ffffff;
 }
-
-
-
