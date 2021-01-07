@@ -199,6 +199,7 @@ nav a {
 
 .contact-links a {
   display: flex;
+  align-items: center;
 }
 
 
@@ -572,8 +573,13 @@ footer {
 footer .container {
   display: flex;
   align-items: baseline;
-  
 }
+
+
+footer .container:last-child li{
+  margin-top: 0;
+}
+
 
 footer address {
   font-style: normal;
@@ -585,8 +591,13 @@ footer address {
 footer .container li {
   display: flex;
   align-items: baseline;
-  margin: 9px;
+  margin-top: 9px;
 }
+
+
+
+
+
 
 
 footer .logo {
